@@ -4,7 +4,7 @@
  * Functionpointers to every function in the game.so.
  *
  * =======================================================================
- */ 
+ */
 
 {"ReadLevel", (byte *)ReadLevel},
 {"ReadLevelLocals", (byte *)ReadLevelLocals},
@@ -269,12 +269,6 @@
 {"COM_Parse", (byte *)COM_Parse},
 {"va", (byte *)va},
 {"Swap_Init", (byte *)Swap_Init},
-{"FloatNoSwap", (byte *)FloatNoSwap},
-{"FloatSwap", (byte *)FloatSwap},
-{"LongNoSwap", (byte *)LongNoSwap},
-{"LongSwap", (byte *)LongSwap},
-{"ShortNoSwap", (byte *)ShortNoSwap},
-{"ShortSwap", (byte *)ShortSwap},
 {"LittleFloat", (byte *)LittleFloat},
 {"BigFloat", (byte *)BigFloat},
 {"LittleLong", (byte *)LittleLong},
